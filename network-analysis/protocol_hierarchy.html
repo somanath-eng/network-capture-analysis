@@ -1,0 +1,35 @@
+<html><body><pre>
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+eth                                      frames:2311 bytes:410271
+  ipv6                                   frames:1985 bytes:364154
+    tcp                                  frames:1874 bytes:340831
+      tls                                frames:823 bytes:228584
+        tcp.segments                     frames:10 bytes:11240
+          tls                            frames:6 bytes:6263
+      http                               frames:4 bytes:928
+        data-text-lines                  frames:2 bytes:580
+    udp                                  frames:74 bytes:20133
+      ntp                                frames:6 bytes:660
+      mdns                               frames:48 bytes:5627
+      quic                               frames:16 bytes:12910
+        quic                             frames:4 bytes:4241
+          quic                           frames:2 bytes:1653
+      dns                                frames:4 bytes:936
+    icmpv6                               frames:37 bytes:3190
+  ip                                     frames:289 bytes:44563
+    tcp                                  frames:177 bytes:31475
+      tls                                frames:64 bytes:20890
+        tcp.segments                     frames:1 bytes:1758
+          tls                            frames:1 bytes:1758
+      http                               frames:4 bytes:848
+        data-text-lines                  frames:2 bytes:540
+    udp                                  frames:112 bytes:13088
+      mdns                               frames:30 bytes:2909
+      dns                                frames:82 bytes:10179
+  arp                                    frames:37 bytes:1554
+===================================================================
+</pre></body></html>
