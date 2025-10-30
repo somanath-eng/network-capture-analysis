@@ -1,0 +1,14 @@
+# Firefox extension files
+*.xpi
+
+# Firefox profile data
+*.default-release/
+*.default/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.backup
+*.bak
